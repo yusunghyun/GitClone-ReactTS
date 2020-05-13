@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "sourceMap": true, 
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",  //???commonjs,amd아닌가?
+    "moduleResolution": "node",
+    "downlevelIteration": true,   
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "noImplicitAny": false,  
+    "baseUrl": ".",  
+    "paths": { "*": ["node_modules/*"]},
+    "outDir": "dist",     
+    "jsx": "react"
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
